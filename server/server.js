@@ -25,7 +25,7 @@ app.use(cors());
 app.use(bodyParser.json());
 
 app.get('/', (req, res) => {
-  res.send(database.users);
+  res.send('working!');
 });
 
 app.post('/signin', signin.handleSignIn(postgres, bcrypt));
