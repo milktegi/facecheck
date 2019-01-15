@@ -5,7 +5,7 @@ const ShowImage = ({ onInputChange, onButtonSubmit }) => {
 	return (
 		<div>
 			<p className="f4">
-				{'이미지 url을 입력하면 얼굴 인식을 시작합니다.'}
+				{'this magin brain will detect faces in your picture, so give in a try!'}
 			</p>
 			<div className="center">
 			<div className="form center pa4 br3 shadow-5">
